@@ -16,12 +16,12 @@ The Camunda DMN engine supports FEEL for [input entries]. The FEEL term for
 expression in input entires is simple unary tests. These simple unary tests
 test an input value against an expression and return either `true` if the test
 is satisfied or `false` otherwise. The expression can contain different
-elements which are described in this sections.
+elements which are described in these sections.
 
 # Comparison
 
 FEEL simple unary tests support the following comparison operators. Please
-note that the equals operator is empty and *not* `=`. Also, a non equal operator such as `!=` 
+note that the equality operator is empty and *not* `=`. Also, a non equal operator such as `!=` 
 does *not* exist. To express this, [negation] has to be used.
 
 <table class="table table-striped">
